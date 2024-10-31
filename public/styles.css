@@ -1,0 +1,54 @@
+/* General Styles */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;;
+}
+
+/* Header Customization */
+header {
+    background-image: url('images/cover.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 600px;
+}
+
+/* Card Customization */
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}
+
+/* Footer Customization */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.cover-box {
+    background-color: rgba(0, 0, 0, 0.749);
+    height: 600px;
+}
+
+.btn-lm {
+    color: #ffffff;
+    background-color: rgb(149, 184, 97);
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.btn-lm:hover {
+    cursor: pointer;
+    background-color: rgb(105, 163, 18);
+}
